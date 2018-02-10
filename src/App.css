@@ -1,0 +1,136 @@
+body {
+  background-color: #EDEDED;
+  font-family: 'Lato','Sans Serif'
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.right-view {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+
+}
+.custom-button1 {
+  background-color: #3F4954;
+  color: white;
+}
+.nav-left {
+  background-color: #3F4954;
+  position: absolute;
+  left: 0;
+  padding-top: 21px;
+  min-height: 100%;
+  width: 230px;
+  z-index: 810;
+  -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+  -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+  transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.navbar .container {
+  margin-left: 0;
+}
+.nav-left-color {
+  background-color: #2B333E;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+}
+.utransac-ul-left li a{
+  color: #f4f4f4;
+  list-style: none;
+}
+
+.custom-box-container {
+  background-color: #FFFFFF;
+}
+
+.custom-box-container-live-queue {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.custom-box-container-small {
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+.custom-box-container-header {
+  background-color: #F7A94B;
+  color: white;
+  margin-left: 0;
+  margin-right: 0
+}
+.transac-success-color {
+  color: #A4E1AF;
+}
+.badge-transac-default {
+  background-color: #DDDDDD;
+  color: #7F7F7F;
+  padding: 8px 30px 8px 30px;
+}
+.badge-transac-success {
+  background-color: #ff9b00;
+  padding: 8px 30px 8px 30px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+.u-transac-font-head {
+  color: #F7A94B;
+}
+.average-queue {
+  font-size: 10px;
+}
+.margin-container-left {
+  /*margin-left: 30px;*/
+}
+.nav>li>a:hover,
+.nav>.active,
+.nav>li>a:focus,
+.nav>li>a:active,
+.nav>li>a:visited {
+    text-decoration: none;
+    background-color: #2b333e;
+}
+.utransac-ul-left .active a{
+  color: #F7A94B;
+  list-style: none;
+}
+.dashboard-icon {
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
